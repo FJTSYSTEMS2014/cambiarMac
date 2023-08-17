@@ -1,11 +1,12 @@
-# cambiarMac
+# cambiarMac automaticamente
 Cambiar MAC
-git clone https://github.com/FJTSYSTEMS2014/cambiarMac.git
-cd cambiarMac
-chmod +x GestionInterfaz.sh
-./GestionInterfaz.sh
 
-Nota: Inicialmente debemos conectarnos a una red conocida.
-Luego ejecutamos ./GestionInterfaz.sh
-Seleccionas la interfaz a la que quieres cambiarle la MAC (por ejemplo wlan0)
-luego cambia automaticamente tu mac, y es persistente hasta el reinicio de la PC.
+1.    git clone https://github.com/FJTSYSTEMS2014/cambiarMac.git
+2.    cd cambiarMac
+3.    chmod +x GestionInterfaz.sh
+4.   ./GestionInterfaz.sh
+
+5. Nota: Inicialmente debemos conectarnos a una red conocida.
+6. Luego ejecutamos ./GestionInterfaz.sh
+7.  Seleccionas la interfaz a la que quieres cambiarle la MAC (por ejemplo wlan0)
+8. Listo, tienes Mac nueva hasta el proximo reinicio.
